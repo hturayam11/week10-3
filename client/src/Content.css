@@ -1,0 +1,38 @@
+
+#content {
+    border: 3px solid #461505;
+    height: 90vh;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#searchBar {
+    border: 3px solid black;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+#searchBar input {
+    font-size: 2em;
+    padding: 1%;
+    border-radius: 30px;
+}
+
+#recipeContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe {
+    border: 3px solid black;
+    max-width: 33%;
+    
+}
+
+.recipe h5 {
+    margin: 0;
+    
+}
